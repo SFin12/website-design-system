@@ -1,0 +1,76 @@
+<!--DOCTYPE HTML-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Website Design System</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Asul&family=Chivo:wght@300&family=Cookie&family=Frijole&family=Istok+Web:ital@1&family=Press+Start+2P&family=Roboto&family=Roboto+Mono:wght@300&family=Sancreek&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <h1>My Website Style Guide</h1>
+    <!--main is used for first to sections-->
+    <main class="main">
+        <section class="container">
+
+        <!--Color Section-->
+        <h2>Sample Colors</h2>
+        <div class="color-container">
+            <p class="blue">Blue:<br>rgb(0,5,255)</p>
+            <p class="red">Red:<br>rgb(250,0,0)</p>
+            <p class="green">Green:<br>rgb(0,255,0)</p>
+            <p class="turquiose">Turquiose:<br>rgb(0,255,255)</p>
+            <p class="gray">Gray:<br>rgb(100,100,100)</p>
+            <p class="yellow">Yellow:<br>rgb(255,255,0)</p>
+            <h4 class="notes"><strong>NOTES:</strong> rgba takes a 4th argument between 0 and 1. An argument of .0 means it will be transparent and 1 means it is solid. Other colors that can be used are hsl() and hsla() which take 3 and 4 arguments. The "h" stands for hue / color, the "s" stands for saturation (grayscale -- colorful) and the "l" stands for lightness / brightness.</h4>
+        </div>
+        </section>
+        <section class="container">
+
+        <!--Font Section-->
+        <h2>Sample Fonts</h2>
+            <div class="fonts-container">
+            <div class="special-fonts">
+                <h3>Special</h3>
+                <p class="frijole">Frijole: Hello 1234</p>
+                <p class="press">Press: Hello 1234</p>
+                
+                <p class="sancreek">Sancreek: Hello 1234</p>
+            </div>
+            <div class="readable-fonts">
+                <h3>Easy to Read</h3>
+                <p class="courier">Courier: Hello 124</p>
+                <p class="asul">Asul: Hello 1234</p>
+                <p class="chivo">Chivo: Hello 1234</p>
+                <p class="roboto-mono">Roboto Mono: Hello 1234</p>
+            </div>
+            <div class="other-fonts">
+                <h3>Other Fonts</h3>
+                <p class="cookie">Cookie: Hello 1234</p>
+                <p class="istok-italic">Istok-italic: Hello 1234</p>
+                <p class="acme">Acme: Hello 1234</p>
+            </div>
+            <h4 class="notes"><strong>NOTES:</strong> Most fonts can be accessed using google fonts. It's suggested to add new fonts in as a link in the head section of the index html file.  To see how to reference linked fonts click on the link to open css styles. Look for all comments that with /* latin */ to see the key words used.</h4>
+            </div>
+        </section>
+    </main>
+    <section class="container" id="last">
+
+        <!--Recommendations when building a site-->
+        <h2>Prefered Styles</h2>
+        <br>
+        <ul>
+            <li>No more than two fonts.</li>
+            <li>Max of 3 colors per page.</li>
+            <li>Use h1 once for main title.</li>
+            <li>Use src:url(../file) for background images in css rather than html.</li>
+            <li>No more than two columns.</li>
+            <li>Link new fonts as html link.</li>
+            <li>Use classes and occasional id's.</li>
+        </ul>
+    </section>
+    <footer>
+        Last updated: 2021/3/11
+    </footer>
+  </body> 
+</html>

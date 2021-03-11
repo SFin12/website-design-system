@@ -1,0 +1,241 @@
+html {
+    background-color: rgb(75, 75, 75)    
+  }
+  
+  h1{
+    color: tan;
+    text-align: center;
+  }
+
+   h2 {
+     text-align: center;  
+     font-weight: bold;
+     font-size: 2em;
+   }
+  
+  
+  h3 {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-decoration: underline;
+  }
+  
+  section {
+    text-align: center;
+    background: linear-gradient(tan,rgb(224, 197, 162));
+    border: 5px groove silver;
+    border-radius: 8px;
+    padding: 1%, 10%;
+    margin: 10px 10px;
+    box-shadow: -5px -5px 5px 3px rgba(20,20,20,.7);
+  }
+  
+  .color-container {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+    line-height: 150%;
+    padding: 2%;
+    
+    
+  }
+  
+  .blue {
+    text-align: center;
+    width: 120px;
+    max-width: 200px;
+    height: 50px;
+    max-height: 75px;
+    padding:5px;
+    color: white;
+    background-color: rgb(0,5,255);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+    flex-grow: 2;
+    margin: 1.5em;
+    
+  }
+  .red {
+    text-align: center;
+    width: 120px;
+    max-width: 200px;
+    height: 50px;
+    max-height: 75px;
+    padding:5px;
+    color: white;
+    background-color: rgb(250,0,0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+    flex-grow: 2;
+    margin: 1.5em;
+  }
+  .green {
+    text-align: center;
+    width: 120px;
+    max-width: 200px;
+    height: 50px;
+    max-height: 75px;
+    padding:5px;
+    color: black;
+    background-color: rgb(0,255,0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+    flex-grow: 2;
+    margin: 1.5em;
+    
+  }
+  .turquiose {
+    text-align: center;
+    width: 120px;
+    max-width: 200px;
+    height: 50px;
+    max-height: 75px;
+    padding:5px;
+    color: black;
+    background-color: rgb(0,255,255);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+    flex-grow: 2;
+    margin: 1.5em;
+  
+  }
+  .gray {
+    text-align: center;
+    width: 120px;
+    max-width: 200px;
+    height: 50px;
+    max-height: 75px;
+    padding:5px;
+    color: white;
+    background-color: rgb(100,100,100);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+    flex-grow: 2;
+    margin: 1.5em;
+  
+  }
+  .yellow {
+    text-align: center;
+    width: 120px;
+    max-width: 200px;
+    height: 50px;
+    max-height: 75px;
+    padding:5px;
+    color: black;
+    background-color: rgb(255,255,0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+    flex-grow: 2;
+    margin: 1.5em;
+  }
+  
+  .fonts-container {
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+    line-height: 150%;
+    padding: 2%;
+    font-size: 1.05em;
+  }
+  .special-fonts {
+    border-radius:8px;
+    background-color: white;
+    flex-basis: 30%;
+    min-width:300px;
+    line-height: 100%;
+    margin:4px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+  }
+      .frijole {
+        font-family: "Frijole", serif;
+      }
+  
+      .press {
+        font-family: "Press Start 2P";
+      }
+  
+      .sancreek {
+        font-family: "Sancreek";
+      }
+  
+  .readable-fonts {
+    border-radius:8px;
+    background-color: white;
+    flex-basis: 30%;
+    min-width:300px;
+    line-height: 100%;
+    margin:4px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+  }
+  
+    .roboto-mono {
+      font-family: "Roboto Mono";
+    }
+  
+    .asul {
+      font-family: "Asul", serif;
+    }
+  
+    .Chivo {
+      font-family: "Chivo", serif;
+    }
+  
+  .other-fonts {
+    border-radius:8px;
+    background-color: white;
+    flex-basis: 30%;
+    min-width:300px;
+    line-height: 100%;
+    margin:4px;
+    box-shadow: 3px 3px 5px 1px rgba(20,20,20,.5);
+  }
+  
+    .cookie {
+      font-family: "Cookie", serif;
+    }
+  
+    .istok-italic {
+      font-family: "Istok web";
+      font-style: italic;
+    }
+  
+    .acme {
+      font-family: "Acme", serif;
+    }
+
+    #last{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+
+    ul {
+        font-size: 1.2em;
+        /*border: 1px solid red;*/
+        margin:0 auto;
+        max-width: 275px;
+        text-align: left;
+    }
+
+    footer {
+        font-size: small;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 100px;
+        width: 100%;
+        vertical-align: bottom;
+        color: tan;
+        text-align: right;
+        
+    }
